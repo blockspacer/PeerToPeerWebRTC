@@ -1,0 +1,7 @@
+#pragma once
+
+#include <guiddef.h>
+
+// {35C0179F-F94F-4D71-85FC-D14B68518091}
+DEFINE_GUID(CLS_ID_HTTP_CLIENT_CONNECTION, 
+0x35c0179f, 0xf94f, 0x4d71, 0x85, 0xfc, 0xd1, 0x4b, 0x68, 0x51, 0x80, 0x91);

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Connection">
+      <UniqueIdentifier>{304c7490-aacf-42de-a903-3bcbd44a9135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Connection\Header Files">
+      <UniqueIdentifier>{ab507063-f7f8-4125-b0e9-a90f1cacaff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProxyHandlers">
+      <UniqueIdentifier>{74842c44-3a07-4a88-8a64-e22f24f51226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProxyHandlers\Header Files">
+      <UniqueIdentifier>{308aa378-1a94-49a3-b5ec-7d2ab50ddf22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProxyHandlers\Source Files">
+      <UniqueIdentifier>{56b91629-bbdb-4edb-bd88-67f20f5a5884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Connection\Resources">
+      <UniqueIdentifier>{9a271753-e26d-4c3d-9826-e9998f0097e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Connection\Source Files">
+      <UniqueIdentifier>{f09fae18-c03b-43f1-96bd-7b0558e3146b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PeerConnection">
+      <UniqueIdentifier>{49a0ca45-bf56-4860-8270-d8204261b1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PeerConnection\Source Files">
+      <UniqueIdentifier>{87956879-1670-4307-82d1-768258bceaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PeerConnection\Header Files">
+      <UniqueIdentifier>{14ef55c5-b5e1-45a4-bf8a-d63e0a334bcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ProxyHandler\Include\WinHttpProxyResolver.h">
+      <Filter>ProxyHandlers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PeerConnection\Include\PeerConnectionHandler.h">
+      <Filter>PeerConnection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Communicator.h">
+      <Filter>Connection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ICriticalSection.h">
+      <Filter>Connection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SmartPtr.h">
+      <Filter>Connection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SocketStreamHandler.h">
+      <Filter>Connection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MacroProcessor.h">
+      <Filter>Connection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\stdafx.h">
+      <Filter>Connection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\targetver.h">
+      <Filter>Connection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SmartMutex.h">
+      <Filter>Connection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\EventHandler.h">
+      <Filter>Connection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ReferenceCounter.h">
+      <Filter>Connection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ErrorMessages.h">
+      <Filter>PeerConnection\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ProxyHandler\Src\WinHttpProxyResolver.cpp">
+      <Filter>ProxyHandlers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ProxyHandler\Src\WinhttpProxyUnitTest.cpp">
+      <Filter>ProxyHandlers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PeerConnection\Src\PeerConnectionHandler.cpp">
+      <Filter>PeerConnection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Communicator.cpp">
+      <Filter>Connection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\CriticalSection.cpp">
+      <Filter>Connection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\EventHandler.cpp">
+      <Filter>Connection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\SocketStreamHandler.cpp">
+      <Filter>Connection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\stdafx.cpp">
+      <Filter>Connection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\CErrorMessage.cpp">
+      <Filter>PeerConnection\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
